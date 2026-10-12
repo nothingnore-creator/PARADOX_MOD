@@ -20,14 +20,14 @@ const AUTO_TIMEOUT_MS = 10 * 60 * 1000;
 const SPAM_LIMIT = 3;
 const SPAM_TIME = 10 * 1000;
 
-const MENTION_LIMIT = 5;
+const MENTION_LIMIT = 30;
 
 
 // ================= PROTECTED TAGS =================
 
 const PROTECTED_TAG_USERS = [
     {
-        userId: "1480113455372697761",
+        userId: "",
         action: "timeout",
         duration: 10 * 60 * 1000,
         message: "❌ Greetings, Don't Tag him again."
